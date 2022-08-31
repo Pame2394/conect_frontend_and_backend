@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- 1. Archivo reset css -->
+        <link rel="stylesheet" href="css/reset.css">
+
+        <!-- 2. Archivos de css externos (fuentes) -->
+        <!-- 3. Estilos personalizados -->
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/registro-plato.css">
+         <!-- 1. Archivo reset css -->
+         <link rel="stylesheet" href="css/reset.css">
+
+         <!-- 2. Archivos de css externos (fuentes) -->
+         <!-- 3. Estilos personalizados -->
+         <link rel="stylesheet" href="css/index.css">
+         <link rel="stylesheet" href="css/registro-plato.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <form>
+        <div>
+            <label for="txt-nombre-plato">Nombre del plato: </label>
+            <input type="text" id="txt-nombre-plato">
+        </div>
+        <div>
+            <label for="txt-ingredientes">Ingredientes: </label>
+            <input type="text" id="txt-ingredientes">
+        </div>
+        <div>
+            <label for="txt-precio">Precio:</label>
+            <input type="number" id="txt-precio">
+        </div>
+        <button type="button" id="btn-registrar">Registrar</button>
+    </form>
+    <a class="btn-inicial" href="index.html">Página inicial</a>
+    
+</body>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="js/servicio-general.js"></script>
+<script src="js/registrar-plato.js"></script>
+</html>

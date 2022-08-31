@@ -1,0 +1,21 @@
+a { 
+    border: solid 2px rgb(45, 14, 224);
+    text-decoration: none;
+    background-color: aqua;
+}
+
+h1{
+    font-size: XXX-large;
+}
+
+.header-principal{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 70%;
+    margin-top: 25%;
+}

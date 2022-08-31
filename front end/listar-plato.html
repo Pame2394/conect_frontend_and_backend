@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- 1. Archivo reset css -->
+     <link rel="stylesheet" href="css/reset.css">
+     <link rel="stylesheet" href="css/tabla.css">
+
+     <!-- 2. Archivos de css externos (fuentes) -->
+     <!-- 3. Estilos personalizados -->
+     <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <h1>Lista de Platos</h1>
+
+        <!-- <button type="button" id="btn-mostrar">Mostrar lista</button> -->
+        <section id="sct-tabla">
+            <table id="tbl-platillos" class="tbl-info">
+                <thead>
+                    <tr>
+                        <th><label for="txt-filtro">Filtro:</label> <input type="text" id="txt-filtro"></th>
+                        <th></th>
+                        <th></th>
+                        <th><button type="button" id="btn-agregar" class="btn-agregar">Agregar</button></th>
+                        <th><a href="index.html">Página inicial</a></th>
+                    </tr>
+                    <tr>
+                        <th>Platillo</th>
+                        <th>Ingredientes</th>
+                        <th>Precio</th>
+                        <th></th>
+                        <th></th>
+                        
+                    </tr>
+                    <tbody>
+                        <tr>
+                            <td>sofia@gmail.com</td>
+                            <td>Arroz, frijoles</td>
+                            <td>20000</td>
+                        </tr>
+                    </tbody>
+                </thead>
+            </table>
+        </section>
+    </main>
+
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/servicio-general.js"></script>
+    <script src="js/listar-plato.js"></script>
+    
